@@ -1,0 +1,63 @@
+body{
+    background-position:center;
+   background-size:800px 600px;
+     background-color: black;
+     background-attachment: fixed;     
+     overflow:hidden;
+   }
+   #one{
+    background-position:center;
+    width:800px;
+    height:600px;
+    margin:auto;
+    background-color: black;
+ }
+ input{
+    
+    background-color: black;
+    color:white;
+    text-align:center;
+    border-color:black;
+        font-size: 35px;
+        border-style:dotted;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    margin:auto;
+   
+   
+ }
+ .sport{
+    box-shadow: 0px 0px 5px 10px #d3ff26;  
+    margin-top:100px;
+     width:200px;
+    height:50px;
+    padding-top: auto;
+}
+
+.spo{
+    box-shadow: 0px 0px 5px 10px #d3ff26;  
+    margin-top:100px;
+     width:200px;
+    height:50px;
+    padding-top: auto;
+}
+#res{
+    border-radius: 100%;
+    width:100px;
+    height:100px;
+    background-color: rgb(28, 28, 126);
+    border-color:beige;
+    margin-top:130px;
+    margin-right:400px;
+    box-shadow: 0px 0px 5px 10px rgb(28, 28, 126); 
+}
+#pas{
+    box-shadow: 0px 0px 5px 10px rgb(28, 28, 126); 
+    border-radius: 100%;
+    width:100px;
+    height:100px;
+    background-color: rgb(28, 28, 126);
+    border-color:beige;
+    margin-top:-120px;
+    margin-left:400px;
+}

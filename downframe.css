@@ -1,0 +1,27 @@
+#body{
+    background-color: black;
+    text-align: center;
+}
+a{
+    text-decoration:none;
+    width:100px;
+    height:50px;
+    color:yellow;
+    font-size: 20px;
+    font-weight: 400;
+   
+    font-family:cursive;
+}
+.but{
+    background-color: black;
+   margin-bottom: 20px;
+    border:none;
+    margin-left: 30px;
+    margin-top:12px;
+}
+.but:hover{
+    background-color: rgb(54, 2, 2);
+    border-radius: 10px;
+}
+
+

@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>timer</title>
+        <link rel="stylesheet" href="stopwatch.css">
+    </head>
+    <body>
+        
+        <div id="one"> <center><input type="text" class="sport" dafault="0"><br><br>
+            <input type="text" class="spo" default="0"><br><br>
+            
+            
+            <button onclick="resume()" id="res" ><img src="54377.png" width="40px" height="40px"></button><br><br>
+                    <button onclick="pause()" id="pas"><img src="pause.jpg" width="40px" height="40px"></button></center></div>
+       
+        <script>
+            var z1=document.querySelector(".sport");
+        var z2=document.querySelector(".spo");
+                   function call(){
+                       
+                       if(z2.value == 59)
+                       {
+                           z2.value=0;
+                       z1.value =Number(z1.value) + Number(1);
+                     
+       
+                       }
+                       else{
+                           z2.value = Number(z2.value) + Number(1);
+                       }
+                    
+       
+                   }
+                   function resume(){x=setInterval(call,1000); } 
+                   function pause(){clearInterval(x);}
+        </script>
+        </body>
+        </html>

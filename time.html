@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>timer</title>
+        <link rel="stylesheet" href="time.css">
+    </head>
+    <body>
+        
+        <div id="one"> <center><input type="number" class="m" ><br><br>
+            <input type="number" class="s" ><br><br>
+           
+            <button onclick="times()" id="start"><img src="54377.png" width="40px" height="40px"></button><br><br>
+            <button onclick="stop()" id="stop"><img src="pause.jpg" width="40px" height="40px"></button><br><br>
+            <button onclick="snooze()" id="sno"><img src="88.png" width="40px" height="40px"></button>
+           
+            <script>
+                const music=new Audio("shinchan.mp3");
+                var minute=document.querySelector(".m");
+                var second=document.querySelector(".s");
+               
+             
+
+            function cal(){
+               
+                
+                if(second.value == 0)
+                {
+                    
+                    second.value=60;
+                    minute.value=minute.value- 1;
+                   
+                    
+                }
+                if(minute.value == -1)
+                {
+                   
+                    music.play();
+                }
+               
+                
+                else{
+                    second.value=second.value-1;
+             
+                    
+            }
+            
+               
+            }
+            
+            function times(){a=setInterval(cal,1000);}
+            function stop(){clearInterval(a);}
+            function snooze()
+             { 
+          
+                  minute.value=0;
+                 
+                music.currentTime=0;
+                music.pause();
+                
+             }
+            </script>
